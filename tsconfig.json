@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "strictNullChecks": false,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@modules/*": ["./src/@modules/*"],
+      "@styles/*": ["./src/@styles/*"],
+      "@base/*": ["./src/@base/*"],
+      "@lib/*": ["./src/@lib/*"]
+    }
+  },
+  "typeRoots": ["./node_modules/@types", "./types"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".environments.ts",
+    ".next/types/**/*.ts",
+    "public/service-worker.js",
+    "src/@modules/assessment/question-sets/components/UpdateSetQuestionForm.tsx."
+  ],
+  "exclude": ["node_modules"]
+}
