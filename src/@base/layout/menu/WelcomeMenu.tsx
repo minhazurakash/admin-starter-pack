@@ -1,5 +1,4 @@
 import ThemeToggler from '@base/components/ThemeToggler';
-import { Paths } from '@lib/constant/paths';
 import { cn } from '@lib/utils/cn';
 import { cookies } from '@lib/utils/cookies';
 import { useLogout } from '@modules/auth/lib/hooks';
@@ -7,8 +6,7 @@ import { useAuthSession } from '@modules/auth/lib/utils';
 import { useUser } from '@modules/user/lib/hooks';
 
 import { Button, Dropdown } from 'antd';
-import Link from 'next/link';
-import { AiOutlineLogout, AiOutlineUser } from 'react-icons/ai';
+import { AiOutlineLogout } from 'react-icons/ai';
 import { FaUser } from 'react-icons/fa';
 
 interface IProps {}
@@ -28,12 +26,12 @@ const WelcomeMenu: React.FC<IProps> = () => {
   });
 
   const items = [
-    {
-      key: 'Profile',
-      disabled: true,
-      icon: <AiOutlineUser />,
-      label: <Link href={Paths.user.list}>Profile</Link>,
-    },
+    // {
+    //   key: 'Profile',
+    //   disabled: true,
+    //   icon: <AiOutlineUser />,
+    //   label: <Link href={Paths.user.list}>Profile</Link>,
+    // },
     {
       key: 'Logout',
       icon: <AiOutlineLogout />,
@@ -48,7 +46,7 @@ const WelcomeMenu: React.FC<IProps> = () => {
       dropdownRender={() => {
         return (
           <div className="min-w-36 rounded-lg border border-gray-100 bg-white p-4 shadow-sm dark:bg-black">
-            <p className="text-xs font-medium text-gray-500 dark:text-gray-400">Welcome to Wage</p>
+            <p className="text-xs font-medium text-gray-500 dark:text-gray-400">Welcome to starter</p>
             <p className="font-semibold">{userData?.data?.data?.fullName}</p>
             <ul className="mt-4 flex flex-col gap-2 border-t border-t-gray-100 pt-4">
               {items.map((item) => (

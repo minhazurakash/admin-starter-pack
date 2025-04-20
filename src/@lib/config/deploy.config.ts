@@ -148,22 +148,22 @@ export const deployConfigs: IDeployConfigs = {
     {
       organization: 'bangladesh',
 
-      apiUrl: 'https://vt-bangladesh.Wage.com/api/v1/internal',
-      apiBaseUrl: 'https://vt-bangladesh.Wage.com',
-      userApiUrl: 'https://vt-accounts-prod.Wage.com/api/v1/internal',
+      apiUrl: 'https://vt-bangladesh.starter.com/api/v1/internal',
+      apiBaseUrl: 'https://vt-bangladesh.starter.com',
+      userApiUrl: 'https://vt-accounts-prod.starter.com/api/v1/internal',
 
-      b2bApiUrl: 'https://vt-bangladesh.Wage.com/api/v1/b2b',
-      b2bApiBaseUrl: 'https://vt-bangladesh.Wage.com',
-      b2bUserApiUrl: 'https://vt-accounts-prod.Wage.com/api/v1/internal',
+      b2bApiUrl: 'https://vt-bangladesh.starter.com/api/v1/b2b',
+      b2bApiBaseUrl: 'https://vt-bangladesh.starter.com',
+      b2bUserApiUrl: 'https://vt-accounts-prod.starter.com/api/v1/internal',
 
-      corporateApiUrl: 'https://vt-bangladesh.Wage.com/api/v1/corporate',
-      corporateApiBaseUrl: 'https://vt-bangladesh.Wage.com',
-      corporateUserApiUrl: 'https://vt-accounts-prod.Wage.com/api/v1/internal',
+      corporateApiUrl: 'https://vt-bangladesh.starter.com/api/v1/corporate',
+      corporateApiBaseUrl: 'https://vt-bangladesh.starter.com',
+      corporateUserApiUrl: 'https://vt-accounts-prod.starter.com/api/v1/internal',
 
       panels: [
         {
           type: 'core',
-          origin: 'https://bd-core.Wage.com',
+          origin: 'https://bd-core.starter.com',
 
           apiUrl: null,
           apiBaseUrl: null,
@@ -171,7 +171,7 @@ export const deployConfigs: IDeployConfigs = {
         },
         {
           type: 'b2b',
-          origin: 'https://business.Wage.com',
+          origin: 'https://business.starter.com',
 
           apiUrl: null,
           apiBaseUrl: null,
@@ -179,7 +179,7 @@ export const deployConfigs: IDeployConfigs = {
         },
         {
           type: 'corporate',
-          origin: 'https://corporate.Wage.com',
+          origin: 'https://corporate.starter.com',
 
           apiUrl: null,
           apiBaseUrl: null,
@@ -190,22 +190,22 @@ export const deployConfigs: IDeployConfigs = {
     {
       organization: 'india',
 
-      apiUrl: 'https://vt-india.Wage.com/api/v1/internal',
-      apiBaseUrl: 'https://vt-india.Wage.com',
-      userApiUrl: 'https://vt-accounts-prod.Wage.com/api/v1/internal',
+      apiUrl: 'https://vt-india.starter.com/api/v1/internal',
+      apiBaseUrl: 'https://vt-india.starter.com',
+      userApiUrl: 'https://vt-accounts-prod.starter.com/api/v1/internal',
 
-      b2bApiUrl: 'https://vt-india.Wage.com/api/v1/b2b',
-      b2bApiBaseUrl: 'https://vt-india.Wage.com',
-      b2bUserApiUrl: 'https://vt-accounts-prod.Wage.com/api/v1/internal',
+      b2bApiUrl: 'https://vt-india.starter.com/api/v1/b2b',
+      b2bApiBaseUrl: 'https://vt-india.starter.com',
+      b2bUserApiUrl: 'https://vt-accounts-prod.starter.com/api/v1/internal',
 
-      corporateApiUrl: 'https://vt-india.Wage.com/api/v1/corporate',
-      corporateApiBaseUrl: 'https://vt-india.Wage.com',
-      corporateUserApiUrl: 'https://vt-accounts-prod.Wage.com/api/v1/internal',
+      corporateApiUrl: 'https://vt-india.starter.com/api/v1/corporate',
+      corporateApiBaseUrl: 'https://vt-india.starter.com',
+      corporateUserApiUrl: 'https://vt-accounts-prod.starter.com/api/v1/internal',
 
       panels: [
         {
           type: 'core',
-          origin: 'https://in-core.Wage.com',
+          origin: 'https://in-core.starter.com',
 
           apiUrl: null,
           apiBaseUrl: null,

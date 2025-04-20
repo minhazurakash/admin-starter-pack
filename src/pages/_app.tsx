@@ -9,8 +9,8 @@ function App({ Component, router, pageProps }: AppProps) {
   return (
     <AppProvider>
       <Head>
-        <title>Wage</title>
-        <meta name="description" content="Wage core system dashboard" />
+        <title>starter</title>
+        <meta name="description" content="starter core system dashboard" />
       </Head>
 
       <WithLayout pathname={router.pathname}>

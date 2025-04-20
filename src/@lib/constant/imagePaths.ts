@@ -1,5 +1,5 @@
 export const ImagePaths = {
-  logo: '/brand_logo.svg',
-  logoLight: '/brand_logo_light.svg',
+  logo: '/brand_logo.png',
+  logoLight: '/brand_logo.png',
   noImageFound: '/images/no-document-found.jpg',
 };
